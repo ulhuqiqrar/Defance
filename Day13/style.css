@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    height: 0;
+    box-sizing: border-box; 
+    background-color: black;  
+}
+
+.continer{
+    padding: 20px;
+}
+.box{
+    margin: 00px;
+    height: 90px;
+    width: 90px;
+    background-color: beige;
+    border-radius: 50%;
+    animation-name: ball;
+    animation-duration: 9s;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+@keyframes ball {
+    0%{
+        background-color: chocolate;
+        top: 10px;
+        left: 10px;
+    }
+    10%{
+
+    }
+    25%{
+        background-color:rgb(13, 190, 22);
+        top: 10px;
+        left: 650px;
+    }
+    50%{
+         background-color: darkcyan;
+         top: 500px;
+        left: 700px;
+        
+    }
+    75%{
+        background-color: blue;
+    top: 500px;
+        left: 10px;
+    }
+
+    100%{
+        top:10px ;
+        left: 10px;
+        background-color: yellow;
+    }
+
+    
+}
+.word{
+    height: 60px;
+    width: 500px;
+    background-color: rgb(5, 148, 22);
+    justify-content: center;
+    margin: 99px;
+    white-space: unrap;
+    overflow: ;
+}
+P{
+    font-size: 60px;
+    color: azure;
+    animation-name: moving;
+    animation-duration: 4s;
+}
+@keyframes moving {
+        from{
+            margin:100% ;
+        }
+        to{
+            margin:0% ;
+        }
+    }
